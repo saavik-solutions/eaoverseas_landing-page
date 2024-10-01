@@ -7573,6 +7573,7 @@ label[for=wp-comment-cookies-consent] {
 }
 
 .nav-area-wrapper-relative {
+  background-color: #fff;
   min-height: 125px;
   position: sticky;
   width: 100%;
