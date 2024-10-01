@@ -2101,7 +2101,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   text-transform: capitalize;
   color: var(--heading-color);
   background-color: #fff;
-  padding: 37px 42px 36px;
+  padding: 20px 30px 20px;
   border: 1px solid #E4E4E4;
   border-radius: 15px;
   text-align: center;
@@ -7574,7 +7574,7 @@ label[for=wp-comment-cookies-consent] {
 
 .nav-area-wrapper-relative {
   background-color: #fff;
-  min-height: 125px;
+  min-height: 90px;
   position: sticky;
   width: 100%;
   top: 0;
@@ -7673,7 +7673,7 @@ label[for=wp-comment-cookies-consent] {
   left: 0;
   top: 0;
   width: 100%;
-  padding: 38px 0px 15px;
+  padding: 18px 0px 15px;
   z-index: 2;
 }
 .navbar-area.navigation-style-02 .custom-container {
