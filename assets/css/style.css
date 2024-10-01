@@ -7574,7 +7574,7 @@ label[for=wp-comment-cookies-consent] {
 
 .nav-area-wrapper-relative {
   min-height: 125px;
-  position: relative;
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
@@ -8258,10 +8258,10 @@ label[for=wp-comment-cookies-consent] {
 .banner-area {
   position: relative;
   z-index: 0;
-  padding: 285px 0px 240px;
+  padding: 200px 0px 240px;
 }
 .banner-area.home-two {
-  padding: 285px 0px 160px;
+  padding: 240px 0px 160px;
 }
 .banner-area.home-two::after {
   display: none;
