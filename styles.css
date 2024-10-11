@@ -1,0 +1,19 @@
+/* Card container 
+.icon-box-item {
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;  Optional, for better visual appearance 
+}
+
+/* Hover effect on the whole card 
+.icon-box-item:hover {
+    transform: scale(1.05);
+}
+
+/* To make sure the card's shadow scales with the card 
+.icon-box-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+*/
