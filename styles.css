@@ -1,19 +1,67 @@
-/* Card container 
-.icon-box-item {
-    transition: transform 0.3s ease-in-out;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;  Optional, for better visual appearance 
-}
+      .carousel-container {
+          position: relative;
+          width: 100%;
+          margin: auto;
+          padding: 20px;
+          text-align: center;
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          background-color: #f8f9fa;
+      }
 
-/* Hover effect on the whole card 
-.icon-box-item:hover {
-    transform: scale(1.05);
-}
+      .carousel-container h2 {
+          margin-bottom: 20px;
+          font-size: 1.8em;
+          color: #333;
+      }
 
-/* To make sure the card's shadow scales with the card 
-.icon-box-item:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-*/
+      .carousel-slide {
+          display: flex;
+          transition: transform 0.5s ease;
+      }
+
+      .carousel-item {
+          min-width: 100%;
+          box-sizing: border-box;
+          text-align: center;
+      }
+
+      .carousel-item img {
+          width: 80%;
+          max-width: 200px;
+          height: auto;
+          border-radius: 5px;
+      }
+
+      .carousel-item p {
+          margin-top: 10px;
+          font-size: 1.2em;
+          font-weight: bold;
+          color: #555;
+      }
+
+      .carousel-btn {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 2rem;
+          background: rgba(0, 0, 0, 0.5);
+          color: white;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+          transition: background 0.3s;
+      }
+
+      .prev {
+          left: 10px;
+      }
+
+      .next {
+          right: 10px;
+      }
+
+      .carousel-btn:hover {
+          background: rgba(0, 0, 0, 0.8);
+      }
