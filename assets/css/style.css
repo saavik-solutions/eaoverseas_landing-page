@@ -75,12 +75,13 @@ h4 {
 
 
 p {
-  color: var(--paragraph-color);
+  color: #000000; /* Change this to your desired color code */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
   margin-bottom: 10px;
 }
+
 
 a {
   color: inherit;
@@ -2219,6 +2220,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   background-color: #fff;
   padding: 20px 30px 20px;
   border: 1px solid #E4E4E4;
+  border-color: #0053A7;
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
@@ -4056,6 +4058,8 @@ margin-bottom: 15px;
 }
 
 .destination-single-item.style-02 .thumbnail::after {
+  
+  
   position: absolute;
   content: "";
   right: -140px;
