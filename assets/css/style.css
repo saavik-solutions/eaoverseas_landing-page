@@ -35,8 +35,6 @@ html {
 }
 
 body {
-  background: rgb(0, 83, 167);
-    background: linear-gradient(45deg, rgba(0, 83, 167, 1) 0%, rgba(255, 255, 255, 1) 100%);
   margin: 0;
   color: var(--heading-color);
   font-family: var(--body-font);
