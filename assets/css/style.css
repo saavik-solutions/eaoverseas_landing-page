@@ -9254,9 +9254,8 @@ label[for=wp-comment-cookies-consent] {
 	## Header
 --------------------------------------------------------------*/
 .hero{
-
-  background: rgb(255, 255, 255);
-    background: linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(172, 172, 222, 1) 50%, rgba(0, 83, 167, 1) 100%);
+background: rgb(255, 255, 255);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 1) 40%, rgba(0, 83, 167, 1) 100%);
     border-radius: 10px;
 }
 .banner-area {
