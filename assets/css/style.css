@@ -7873,7 +7873,7 @@ label[for=wp-comment-cookies-consent] {
 }
 
 .widget.footer-widget ul li a {
-  color: #fff;
+  color: #e0e0e0;
   font-size: 16px;
   position: relative;
 }
@@ -7881,7 +7881,7 @@ label[for=wp-comment-cookies-consent] {
 .widget.footer-widget ul li a:hover {
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
-  color: var(--main-color-one);
+  color:#fff;
 }
 
 .widget.footer-widget.widget_tag_cloud .tagcloud {
