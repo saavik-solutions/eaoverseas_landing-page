@@ -13,7 +13,7 @@
   --heading-color: black;
   --paragraph-color: #6B6B6B;
   --heading-font: "Sora", sans-serif;
-  --body-font:"Noto Sans KR", sans-serif;
+  --body-font: "Noto Sans KR", sans-serif;
   --animate-delay: 0.3s;
 }
 
@@ -73,7 +73,8 @@ h4 {
 
 
 p {
-  color: #000000; /* Change this to your desired color code */
+  color: #000000;
+  /* Change this to your desired color code */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
@@ -2601,9 +2602,9 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
- color:var(--paragraph-color);
- min-height: 500px;
- margin-bottom: 20px;
+  color: var(--paragraph-color);
+  min-height: 500px;
+  margin-bottom: 20px;
 }
 
 .icon-box-item:hover {
@@ -2674,14 +2675,17 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   margin-bottom: 20px;
 
 }
-.icon-box-item .content .services-list  {
-margin-bottom: 15px;
+
+.icon-box-item .content .services-list {
+  margin-bottom: 15px;
 
 }
-.icon-box-item .content .services-list p  {
+
+.icon-box-item .content .services-list p {
   margin-bottom: 2px;
 }
-.icon-box-item .btn-wrap{
+
+.icon-box-item .btn-wrap {
   position: absolute;
   bottom: 1px;
 }
@@ -3976,7 +3980,7 @@ margin-bottom: 15px;
   width: calc(14.2857142857% - 20px);
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  font-family:  "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .destination-single-item:hover {
@@ -4042,22 +4046,23 @@ margin-bottom: 15px;
   line-height: 130px;
   text-align: center;
   background: #fff;
-  border-radius:10px;
+  border-radius: 10px;
   margin: auto;
   position: relative;
   z-index: 0;
 }
-.destination-single-item.style-02 .thumbnail svg{
+
+.destination-single-item.style-02 .thumbnail svg {
 
   width: 100px;
-    height: 100px;
-    color: #0053A7;
+  height: 100px;
+  color: #0053A7;
 
 }
 
 .destination-single-item.style-02 .thumbnail::after {
-  
-  
+
+
   position: absolute;
   content: "";
   right: -140px;
@@ -4101,7 +4106,7 @@ margin-bottom: 15px;
 }
 
 .destination-section.style-01 {
-background: rgb(0, 83, 167);
+  background: rgb(0, 83, 167);
   background: linear-gradient(180deg, rgba(0, 83, 167, 1) 0%, rgba(165, 199, 235, 1) 51%, rgba(0, 83, 167, 1) 100%);
   padding: 135px 0px 105px;
 }
@@ -7883,7 +7888,7 @@ label[for=wp-comment-cookies-consent] {
 .widget.footer-widget ul li a:hover {
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
-  color:#fff;
+  color: #fff;
 }
 
 .widget.footer-widget.widget_tag_cloud .tagcloud {
@@ -9253,11 +9258,12 @@ label[for=wp-comment-cookies-consent] {
 /*--------------------------------------------------------------
 	## Header
 --------------------------------------------------------------*/
-.hero{
-background: rgb(255, 255, 255);
+.hero {
+  background: rgb(255, 255, 255);
   background: linear-gradient(45deg, rgba(255, 255, 255, 1) 40%, rgba(0, 83, 167, 1) 100%);
-    border-radius: 10px;
+  border-radius: 10px;
 }
+
 .banner-area {
   position: relative;
   z-index: 0;
@@ -10278,9 +10284,8 @@ background: rgb(255, 255, 255);
   position: relative;
   z-index: 0;
 }
-.features-section .content ul{
 
-}
+.features-section .content ul {}
 
 .features-section.style-01 .theme-section-title .title {
   margin-bottom: 30px;
@@ -12872,73 +12877,39 @@ ul.blocks-gallery-grid li:before {
   font-size: 28px;
   /* WhatsApp icon size */
 }
-    
-       .carousel-container {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  padding: 20px ;
-  text-align: center;
+
+.carousel-container {
+  width: 80%;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: #f8f9fa;
+  position: relative;
 }
 
-.carousel-container h2 {
-  margin-bottom: 20px;
-  font-size: 1.8em;
-  color: #333;
-}
-
-.carousel-slide {
+.carousel {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
-  min-width: 100%;
-  box-sizing: border-box;
+  min-width: 200px;
+  height: 150px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .carousel-item img {
-  width: 80%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 5px;
+  max-width: 80px;
+  max-height: 80px;
+  margin-bottom: 10px;
 }
 
 .carousel-item p {
-  margin-top: 10px;
-  font-size: 1.2em;
+  margin: 0;
   font-weight: bold;
-  color: #555;
 }
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
-.carousel-btn:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
-
-    
