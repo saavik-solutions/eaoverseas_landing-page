@@ -11,7 +11,7 @@
 :root {
   --main-color-one: black;
   --heading-color: black;
-  --paragraph-color: #6B6B6B;
+  --paragraph-color: black;
   --heading-font: "Sora", sans-serif;
   --body-font: "Noto Sans KR", sans-serif;
   --animate-delay: 0.3s;
@@ -1190,7 +1190,7 @@ ul {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: #6B6B6B;
+  color: black;
   margin-bottom: 0;
 }
 
