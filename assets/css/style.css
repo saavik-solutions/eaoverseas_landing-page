@@ -9374,6 +9374,17 @@ label[for=wp-comment-cookies-consent] {
 
 .banner-area .banner-inner .title {
   color: #000;
+  opacity: 0;
+  /* Initially hidden */
+  animation: fadeIn 2s ease-in forwards;
+
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+    /* Final state is fully visible */
+  }
 }
 
 .banner-area .banner-inner h3 {
@@ -9382,6 +9393,10 @@ label[for=wp-comment-cookies-consent] {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 10px;
+    opacity: 0;
+  /* Initially hidden */
+  animation: fadeIn 2s ease-in forwards;  opacity: 0;
+  /* Initially hidden */
 }
 
 .banner-area .banner-inner .title {
