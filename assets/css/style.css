@@ -12897,7 +12897,7 @@ ul.blocks-gallery-grid li:before {
 }
 
 .carousel-container {
-  width: 80%;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -12928,6 +12928,7 @@ ul.blocks-gallery-grid li:before {
 }
 
 .carousel-item p {
-  margin: 0;
+position:absolute;
+bottom:2px;
   font-weight: bold;
 }
