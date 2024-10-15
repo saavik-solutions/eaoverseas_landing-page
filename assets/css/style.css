@@ -2683,6 +2683,9 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 
 }
 
+.icon-box-item .content .services-list svg {
+  margin-right: 3px;
+}
 .icon-box-item .content .services-list p {
   margin-bottom: 2px;
 }
