@@ -3735,14 +3735,14 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 
 .contact-inner .contact-form .form .form-element input {
   height: 74px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid #E4E4E4;
   padding: 15px 20px 15px 60px;
 }
 
 .contact-inner .contact-form .form .form-element textarea {
   height: 140px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .contact-inner .contact-form .form .form-element>.row>div {
@@ -6396,9 +6396,9 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 .form .form-element input[type=url],
 .form .form-element input[type=date],
 .form .form-element textarea {
-  height: 74px;
+  height: 60px;
   border: 1px solid #E1E1E1;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #fff;
   padding: 25px;
   width: 100%;
@@ -8342,9 +8342,9 @@ label[for=wp-comment-cookies-consent] {
 }
 
 .widget.widget_subscribe .subscibe-wrapper .subscribe-form .form-group .form-control {
-  height: 80px;
+  height: 60px;
   background: #fff;
-  border-radius: 20px;
+  border-radius: 10px;
   color: #000;
   font-size: 16px;
   font-weight: 400;
@@ -9881,7 +9881,7 @@ label[for=wp-comment-cookies-consent] {
 }
 
 .footer-area.style-01 .subscribe-form .form-group .btn-wrap a {
-  height: 80px;
+  height: 60px;
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
   width: 100%;
@@ -9893,7 +9893,7 @@ label[for=wp-comment-cookies-consent] {
   text-transform: capitalize;
   color: #fff;
   text-align: center;
-  border-radius: 0 15px 15px 0;
+  border-radius: 0 10px 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
