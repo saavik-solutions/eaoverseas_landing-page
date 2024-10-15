@@ -1154,6 +1154,8 @@ ul {
   max-width: 1430px;
   padding-left: 15px;
   padding-right: 15px;
+    border-radius: 10px;
+  
 }
 
 .container-full {
@@ -9799,10 +9801,8 @@ label[for=wp-comment-cookies-consent] {
 .page-wrapper {
   position: relative;
   z-index: 0;
-  background-image: url(../img/bg/01.jpg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 1) 40%, rgba(0, 83, 167, 1) 100%);
+    border-radius: 10px;
 }
 
 /*-------------------------
@@ -12905,8 +12905,8 @@ ul.blocks-gallery-grid li:before {
 }
 
 .carousel-item {
-  min-width: 200px;
-  height: 150px;
+  min-width: 250px;
+  height: 200px;
   margin: 0 10px;
   background-color: #fff;
   border-radius: 8px;
@@ -12916,6 +12916,7 @@ ul.blocks-gallery-grid li:before {
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: auto;
 }
 
 .carousel-item img {
@@ -12927,5 +12928,5 @@ ul.blocks-gallery-grid li:before {
 .carousel-item p {
 position:absolute;
 bottom:2px;
-  font-weight: bold;
+font-weight: bold;
 }
