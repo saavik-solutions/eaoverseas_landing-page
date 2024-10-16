@@ -6349,7 +6349,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 .single-our-services-item.style-01 {
   text-align: center;
   width: 450px; 
-  min-height: 900px;
+  min-height: 500px;
   background-color: #fff;
   padding: 50px 35px 45px;
   border-radius: 20px;
