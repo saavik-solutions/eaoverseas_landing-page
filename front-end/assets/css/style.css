@@ -8701,8 +8701,9 @@ label[for=wp-comment-cookies-consent] {
 }
 
 .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li.current-menu-item a {
-  color: var(--main-color-one);
+  color: #0000; /* Change this to the color you want */
 }
+
 
 .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li.current-menu-item.menu-item-has-children:before {
   color: var(--main-color-one);
