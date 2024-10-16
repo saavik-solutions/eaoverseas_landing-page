@@ -8590,7 +8590,8 @@ label[for=wp-comment-cookies-consent] {
 }
 
 .nav-area-wrapper-relative {
-  background: rgb(255, 255, 255);
+  background-color:#0053A7 ;
+  color: rgb(255, 255, 255);
   border: 1px solid #0053A7;
   border-top: none;
   min-height: 90px;
@@ -8663,6 +8664,7 @@ label[for=wp-comment-cookies-consent] {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color:white; 
 }
 
 
@@ -8713,7 +8715,7 @@ label[for=wp-comment-cookies-consent] {
 .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li a {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: var(--heading-color);
+color:#fff;
 }
 
 .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li:hover.menu-item-has-children:before {
