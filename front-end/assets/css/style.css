@@ -2222,7 +2222,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   color: var(--heading-color);
   background-color: #fff;
   padding: 13px 16px ;
-  border: ;
+  border: #000;
   border-color: #0053A7;
   border-radius: 10px;
   text-align: center;
@@ -2599,65 +2599,36 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
     Icon Box Item
 -------------------------*/
 .icon-box-item {
-
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   background-color: #fff;
   border-radius: 10px;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   border: 1px solid #ddd;
   padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: var(--paragraph-color);
   min-height: 500px;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
+  position: relative; /* Important for absolute positioning of the button */
 }
 
 .icon-box-item:hover {
-  transform: scale(1.10, 1.10);
+  transform: scale(1.05, 1.05);
   border: 1px solid #0053A7;
   z-index: 1;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.icon-box-item.top {
-  display: block;
+.icon-box-item .btn-wrap {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 20%; /* Center the button */
+  transform: translateX(-50%); /* Center the button horizontally */
+  transition: transform 0.3s ease; /* Smooth transition for button movement */
 }
 
-.icon-box-item.top[style="text-align:center"] .icon {
-  margin: 0 auto;
-}
-
-.icon-box-item.top[style="text-align:right"] .icon-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-}
-
-.icon-box-item[style="text-align:left"] .icon {
-  -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
-}
-
-.icon-box-item.right {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
-
-.icon-box-item.right .icon {
-  margin-left: 15px;
-}
-
-.icon-box-item.left .text-icon,
-.icon-box-item.left .icon {
-  margin-right: 15px;
+.icon-box-item:hover .btn-wrap {
+  transform: translate(-50%, -15px); /* Move the button up slightly on hover */
 }
 
 .icon-box-item .text-icon,
@@ -2671,8 +2642,6 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   font-size: 24px;
   line-height: 1.29;
   font-weight: 600;
-  -webkit-transition: 0.3s all ease;
-  transition: 0.3s all ease;
   margin-bottom: 24px;
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -2680,25 +2649,20 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 .icon-box-item .content p {
   color: rgb(10, 10, 10);
   margin-bottom: 20px;
-
 }
 
 .icon-box-item .content .services-list {
   margin-bottom: 15px;
-
 }
 
 .icon-box-item .content .services-list svg {
   margin-right: 3px;
 }
+
 .icon-box-item .content .services-list p {
   margin-bottom: 2px;
 }
 
-.icon-box-item .btn-wrap {
-  position: absolute;
-  bottom: 1px;
-}
 
 .icon-box-with-text.style-01 .single-icon-box-with-text {
   display: -webkit-box;
@@ -4174,7 +4138,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 .counter-section-area {
   position: relative;
   z-index: 0;
-  padding: 135px 0px 132px;
+  padding: 10px 0px 0px;
 }
 
 .counter-section-area.bg-color-01 {
@@ -9926,7 +9890,7 @@ color:#fff;
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
   width: 100%;
-  background-color: #F32424;
+  background-color:  #0053a7;
   display: block;
   font-size: 18px;
   font-weight: 600;
@@ -11322,6 +11286,7 @@ color:#fff;
   font-weight: 600;
   color: #111;
 }
+
 
 .navbar-nav ul {
   margin: 0;
@@ -12929,6 +12894,11 @@ ul.blocks-gallery-grid li:before {
   display: flex;
   transition: transform 0.5s ease-in-out;
 }
+.carousel-item img:focus-visible {
+   outline: 2px solid #0053A7; /* Custom color or style for focus */
+  outline: none;
+}
+
 .carousel :hover {
   border: 1px solid #0053A7;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -12954,6 +12924,7 @@ ul.blocks-gallery-grid li:before {
   max-width: 80px;
   max-height: 80px;
   margin-bottom: 10px;
+  outline: none; /* Removes default focus outline */
 }
 
 .carousel-item p {
