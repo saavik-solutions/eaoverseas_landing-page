@@ -62,9 +62,10 @@ h2 {
 }
 
 h3 {
-  /* font-size: 24px; */
-  line-height: 1.0833333333;
+  line-height: 1.4; /* Adjust this value to make sure the text has enough vertical space */
+  margin: 0; /* Remove any default margin if it's too large */
 }
+
 
 h4 {
   font-size: 20px;
@@ -8697,7 +8698,7 @@ color:#fff;
 }
 
 .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li:hover a {
-  color: var(--main-color-one);
+  color: white;
 }
 
 .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li:hover .line {
