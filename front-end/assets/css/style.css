@@ -5085,6 +5085,8 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 -------------------------*/
 .single-team-item.style-01 {
   padding: 40px 40px 35px;
+  width: 300px;
+  height: auto;
   border: 1px solid #E4E4E4;
   border-radius: 20px;
   text-align: center;
@@ -12932,4 +12934,18 @@ ul.blocks-gallery-grid li:before {
 position:absolute;
 bottom:2px;
 font-weight: bold;
+}
+.bold-text {
+    font-weight: bold;
+    color: #000; /* or a darker shade as you prefer */
+}
+.service-list ul {
+  list-style-type: disc; /* Use bullets */
+  padding-left: 20px; /* Indent list items */
+  text-align: left; /* Align text to the left */
+}
+
+.service-list li {
+  margin-bottom: 8px; /* Space between items */
+  line-height: 1.6; /* Improve readability */
 }
