@@ -9254,8 +9254,7 @@ color:#fff;
 	## Header
 --------------------------------------------------------------*/
 .hero {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(45deg, rgba(255, 255, 255, 1) 40%, rgba(0, 83, 167, 1) 100%);
+  background-color: #fff;
   border-radius: 10px;
 }
 
