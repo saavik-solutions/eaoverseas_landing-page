@@ -2223,8 +2223,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   color: #fff; /* Text color changed to white */
   background-color: #000; /* Grey background color */
   padding: 13px 16px;
-  border: #000;
-  border-color: #0053A7;
+  border:2px solid #000;
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
@@ -2232,13 +2231,14 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   transition: all ease-in-out 0.2s;
   position: relative;
   z-index: 1;
+  
 }
 
 
 
 .btn-common:hover {
-  background-color: #666666; /* Darker grey on hover */
-  color: #fff; /* Keep text color white on hover */
+  background-color: #fff; /* Darker grey on hover */
+  color: #000; /* Keep text color white on hover */
 }
 
 .btn-common:hover::after {
