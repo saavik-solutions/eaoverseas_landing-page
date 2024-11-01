@@ -31,48 +31,53 @@
 </head>
 
 <body>
-    <div class="nav-area-wrapper-relative">
-        <nav class="navbar navbar-area navbar-expand-lg navigation-style-02">
-            <div class="container custom-container custom-container-01">
-                <div class="responsive-menu">
-                    <div class="logo-wrapper">
-                        <a href="index.html" class="logo">
-                            <img src="assets/img/Logos/logo-black.png" alt="E A Overseas Education">
-                        </a>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Nav Area Start Here
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="nav-area-wrapper-relative">
+            <nav class="navbar navbar-area navbar-expand-lg navigation-style-02">
+                <div class="container custom-container custom-container-01">
+                    <div class="responsive-menu">
+                        <div class="logo-wrapper">
+                            <a href="index.html" class="logo">
+                                <img src="assets/img/Logos/logo-black.png" alt="E A Overseas Education">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler navbar-bs-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#themeim_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
-                    <button class="navbar-toggler navbar-bs-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#themeim_main_menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="themeim_main_menu">
-                    <ul class="navbar-nav">
-                        <li class="current-menu-item">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="our-services.html">Our Services</a></li>
-                        <li><a href="blog-details.html">Blog</a></li>
-                        <li><a href="contact-us.html">Contact Us</a></li>
-                        <li class="menu-item-has-children">
-                            <a href="#">More</a>
-                            <ul class="sub-menu">
-                                <li><a href="services-details.html">Services Details</a></li>
-                                <li><a href="our-team.html">Team</a></li>
-                                <li><a href="country-details.html">Country Details</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-right-content">
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-common nav-btn">Consult now</a>
+                    <div class="collapse navbar-collapse" id="themeim_main_menu">
+                        <ul class="navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="our-services.html">Our Services</a></li>
+                            <li><a href="blog-details.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li class="menu-item-has-children">
+                                <a href="#">More</a>
+                                <ul class="sub-menu">
+                                    <li><a href="services-details.html">Services Details</a></li>
+                                    <!-- <li><a href="our-team.html">Team</a></li> -->
+                                    <li><a href="country-details.html">Country Details</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-right-content">
+                        <div class="btn-wrap">
+                            <a href="./contact-us.html" class="btn-common nav-btn ">Consult now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
 
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Nav Area End Here
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="faq-section-area margin-top-90">
         <div class="container custom-container-01">
             <div class="row">
@@ -236,125 +241,72 @@
         Faq Section Area End Here
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-        footer area start Here 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <footer class="footer-area style-01">
-        <div class="footer-top">
-            <div class="container custom-container-01">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="footer-widget widget widget_subscribe">
-                            <div class="subscibe-wrapper">
-                                <div class="content-wrap">
-                                    <div class="icon">
-                                        <img src="assets/img/icon/newslater.png" alt="">
-                                    </div>
-                                    <div class="content">
-                                        <h4 class="title">Subscribe our newsletter</h4>
-                                        <p>Enter your mail address to get our updates, offer and study abroad related
-                                            all updates</p>
-                                    </div>
-                                </div>
-                                <div class="subscribe-form">
-                                    <div class="form-group">
-                                        <input type="text" name="fname" placeholder="Enter your Email..."
-                                            class="form-control" required="" aria-required="true">
-                                        <div class="btn-wrap">
-                                            <a href="service-single.html" class="subscribe-btn">
-                                                <img src="assets/img/icon/bell.png" alt="">subscribe</a>
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="col-lg-7">
+        <div class="contact-form">
+            <form class="form" id="contactForm" onsubmit="handleSubmit(event)">
+                <div class="part">
+                    <h5 class="title">Primary Information</h5>
+                    <div class="form-element">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" name="entry.640086446" placeholder="Full name" required>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="footer-middle">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="footer-widget widget widget_nav_menu">
-                                <h4 class="widget-headline">Important Links</h4>
-                                <ul>
-                                    <li><a href="./terms-and-conditions.html">terms and conditions</a></li>
-                                    <li><a href="./disclaimer-and-copyright.html">disclaimer and copyright</a></li>
-                                    <li><a href="./cookie-policy.html">cookie policy</a></li>
-                                    <li><a href="./privacy-policy.html">privacy policy</a></li>
-                                    <li><a href="./equality-and-diversity.html">equality and diversity</a></li>
-                                    <li><a href="./complaints-procedure.html">complaints procedure</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="footer-widget widget widget_nav_menu">
-                                <h4 class="widget-headline">Help Center</h4>
-                                <ul>
-                                    <li><a href="./courses.html">courses</a></li>
-                                    <li><a href="./contact-us.html">how to apply for admission</a></li>
-                                    <li><a href="./admission-documents.html">admission documents</a></li>
-                                    <li><a href="./faq.html">frequently asked questions</a></li>
-                                    <li><a href="./student-accommodation.html">student accommodation</a></li>
-                                    <li><a href="./student-jobs.html">student jobs</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6">
-                            <div class="footer-widget widget widget_nav_menu">
-                                <h4 class="widget-headline">Services</h4>
-                                <ul>
-                                    <li><a href="./counselling.html">counselling</a></li>
-                                    <li><a href="./test-preparation.html">test preparation</a></li>
-                                    <li><a href="./admission.html">admission</a></li>
-                                    <li><a href="./education-loan.html">education loan</a></li>
-                                    <li><a href="./visa-processing.html">visa processing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-sm-6">
-                            <div class="footer-widget widget widget_nav_menu">
-                                <h4 class="widget-headline">Location</h4>
-                                <ul class="contact_info_list">
-                                    <li class="single-info-item">
-                                        <div class="icon">
-                                            <img src="assets/img/icon/location-02.png" alt="">
-                                        </div>
-                                        <div class="details">
-                                            Road no 3, Green Hills Colony, Kothapet, Hyderabad, India
-                                            <br>
-                                            To contact us
-                                            <br>
-                                            <a href="tel:+919701563362" class="contact-details">+91 97015 63362</a>
-                                        </div>
-                                    </li>
-                                </ul>
+                    <div class="form-element">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="tel" name="entry.216963863" placeholder="Phone number" required>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="copyright-area">
-                    <div class="container custom-container-01">
+                    <div class="form-element">
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="copyright-area-inner">
-                                    <p>© 2024 E A Overseas. All rights reserved | Developed By <span> Saavik
-                                            solutions</span></p>
-                                    <div class="footer-social-area">
-                                        <ul class="social-icon-02">
-                                            <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/company/e-a-overseas/about/"><i
-                                                        class="fab fa-linkedin-in"></i></a></li>
-                                            <li><a href="https://wa.me/919701563362" target="_blank"><i
-                                                        class="fab fa-whatsapp"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <textarea class="textarea" name="entry.109272958" placeholder="Write description..." rows="10"></textarea>
                             </div>
                         </div>
                     </div>
                 </div>
-    </footer>
+                <div class="form-submit text-right">
+                    <button type="submit" class="btn-common btn-active">Submit Message</button>
+                </div>
+            </form>
+            <div id="successMessage" style="display:none; color: green; font-size: larger; padding-bottom: 40px;">
+                This form has been submitted, we will contact you soon.
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        async function handleSubmit(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Prepare form data
+            const form = document.getElementById('contactForm');
+            const formData = new FormData(form);
+    
+            // Send data to Google Form
+            try {
+                await fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfEzH_HdeNEag7GesBp-2GO9OJBbK8Kb2HIfZEMe4LeJXhizw/formResponse', {
+                    method: 'POST',
+                    body: formData,
+                    mode: 'no-cors'
+                });
+    
+                // Show success message
+                document.getElementById('successMessage').style.display = 'block';
+    
+                // Optionally, reset the form
+                form.reset();
+            } catch (error) {
+                console.error('Form submission failed', error);
+            }
+        }
+    </script>
+    
 </body>
 
 </html>
