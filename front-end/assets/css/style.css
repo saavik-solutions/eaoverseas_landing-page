@@ -53,33 +53,28 @@ body {
 
 h1 {
   font-size: 48px;
-  line-height: 1.0833333333;
+
 }
 
 h2 {
   font-size: 36px;
-  line-height: 1.4444444444;
+
 }
 
 h3 {
   line-height: 1.4; /* Adjust this value to make sure the text has enough vertical space */
-  margin: 0; /* Remove any default margin if it's too large */
 }
 
 
 h4 {
   font-size: 20px;
-  line-height: 1.2380952381;
+  line-height: 1;
 }
 
 
 p {
   color: #000000;
   /* Change this to your desired color code */
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  margin-bottom: 10px;
 }
 
 
@@ -8784,7 +8779,7 @@ color:#fff;
   color: var(--heading-color);
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .navbar-area .custom-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a:hover {
@@ -9376,10 +9371,10 @@ color:#fff;
 
 .banner-area .banner-inner .title {
   font-size: 64px;
-  line-height: 1.407;
+  line-height: 1;
   color: var(--heading-color);
   font-weight: 700;
-  margin-bottom: 27px;
+  
 }
 
 .banner-area .banner-inner .title span {
@@ -9390,12 +9385,10 @@ color:#fff;
 }
 
 .banner-area .banner-inner p {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 20px;
-  line-height: 2;
   font-weight: 400;
   color: var(--paragraph-color);
-  margin-bottom: 0;
 }
 
 .banner-area .banner-inner .header-btn {
@@ -11293,6 +11286,8 @@ color:#fff;
 .navbar.navbar-area.navbar-expand-lg.navigation-style-01.navbar-default {
   background-color: var(--secondary-color);
   padding: 20px 0;
+  border-bottom-left-radius: 0px; /* Adjust as needed */
+  border-bottom-right-radius: 0px; /* Adjust as needed */
 }
 
 .navbar.navbar-area.navbar-expand-lg.navigation-style-01.navbar-default .custom-container {
