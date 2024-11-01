@@ -3716,7 +3716,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 }
 
 .contact-address {
-  background-color: #FAECFF;
+  background-color: #92b3d4;
   padding: 50px;
   border-radius: 15px;
 }
@@ -8983,7 +8983,7 @@ color:#fff;
   }
 
   .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav {
-    background-color: #efefef;
+    background-color: #0053A7;
     padding: 0 20px;
   }
 
@@ -9389,7 +9389,7 @@ color:#fff;
   opacity: 0;
   /* Initially hidden */
   animation: fadeIn 2s ease-in forwards;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 @keyframes fadeIn {
@@ -9869,7 +9869,7 @@ color:#fff;
 }
 
 .footer-area.style-01 .footer-top {
-  padding-top: 140px;
+  padding-top: 60px;
 }
 
 .footer-area.style-01 .widget.widget_subscribe .subscibe-wrapper .content-wrap .content {
@@ -10391,7 +10391,7 @@ color:#fff;
 }
 
 .chose-area-inner.bg-color-01 {
-  background-color: #FAECFF;
+  background-color: #0053A7;
 }
 
 .chose-area-inner .img-box {
