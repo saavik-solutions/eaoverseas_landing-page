@@ -4193,7 +4193,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 
 .single-counterup .content-wrap .odo-area .odo-title {
   margin-bottom: 0px;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 45px;
   font-weight: 700;
   color: var(--main-color-one);
@@ -4213,6 +4213,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   display: inline-block;
   font-size: 45px;
   font-weight: 700;
+  padding: 10px;
   color: #F32424;
   margin-bottom: 0;
   position: relative;
