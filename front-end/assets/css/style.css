@@ -8978,7 +8978,7 @@ color:#fff;
   }
 
   .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav {
-    background-color: #efefef;
+    background-color: #0053A7;
     padding: 0 20px;
   }
 
@@ -9384,7 +9384,7 @@ color:#fff;
   opacity: 0;
   /* Initially hidden */
   animation: fadeIn 2s ease-in forwards;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 @keyframes fadeIn {
