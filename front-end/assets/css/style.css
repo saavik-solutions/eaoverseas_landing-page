@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 :root {
   --main-color-one: black;
-  --heading-color: black;
+  --heading-color: #000;
   --paragraph-color: black;
   --heading-font: "Sora", sans-serif;
   --body-font: "Noto Sans KR", sans-serif;
@@ -9016,7 +9016,7 @@ color:#fff;
 
   .navbar-area.navigation-style-02 .custom-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a {
     background-color: transparent;
-    color: rgba(3, 5, 25, 0.8);
+    color: #fff;
   }
 
   .navbar-area.navigation-style-02 .custom-container .btn-wrap {
